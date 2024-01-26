@@ -1,0 +1,73 @@
+/* UpdateDataPage.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    
+  }
+  
+  h1 {
+
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 169%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  button {
+    margin-top: 1rem; /* Adjust the margin as needed */
+    margin-bottom:2rem;
+    background-color: #007bff; /* Blue background color */
+    border: 1px solid #007bff;
+    justify-content: center;
+    align-items: center;
+    width: 169%;
+    color: #fff; /* White text color */
+    font-weight: bold; /* Bold font weight */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Add some spacing and centering for better presentation */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button, table {
+    margin-top: 20px;
+  }
+  
